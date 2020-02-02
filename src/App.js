@@ -79,11 +79,11 @@ class App extends React.Component {
 class RandomizeButton extends React.Component {
     shuffle() {
         let messages = [
-            "sdsclkf text one svkm sadf",
-            "bnvdkx text two xcvirsdfc",
-            "gbfowsdwefsd text three rjek",
-            "twed text four cxgtlrkds",
-            "sdsdgber text five sdiodss"
+            "Don't waste food. Did you know that 56 million tonnes of food is wasted in Canaday every year? This isn't just a huge waste of money, it adds to the amount of CO2 being created in landfills.",
+            "Recycle everything. Chances are that if you're thinking about taking on a more eco-friendly lifestyle then you'll already be recycling. Before you throw it away, take a minute to find out if you could recycle it instead.",
+            "Try to cut out plastic. Plastic seems to have found its way into every single aspect of our lives. However, giving it up isn't as difficult as you might think - bring a canvas bag with you when you go shopping, buy your fruit and veg loose and stop buying bottled water.",
+            "Grow your own vegetables. It isn't just a good way to save money, it's also a great way to cut down your carbon footprint and be eco friendly.",
+            "Take shorter showers. It is a quick and wasy way to save water."
         ];
 
         let randNum = Math.floor(Math.random() * Math.floor(5));//5 = max 
