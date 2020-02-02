@@ -138,11 +138,13 @@ class RandomizeButton extends React.Component {
         },
         { 
           title:  "Take shorter showers.",
-          text: "5. It is a quick and wasy way to save water."
+          text: ""
+          // text: "5. It is a quick and wasy way to save water."
         } 
     ];
         return  (
             <div className="bit-inputs">
+               <button onClick= {this.props.m.bind(null, this.shuffle().title)}>New Tip</button>
               <p>{messages[0].text}</p>
               <p>{messages[1].text}</p>
               <p>{messages[2].text}</p>
@@ -150,7 +152,7 @@ class RandomizeButton extends React.Component {
               <p>{messages[4].text}</p>
                 {/* <p>{this.shuffle(1, 4).text}</p> */}
                 {/* <button onClick={() => { x = this.randGen(); {this.props.m.bind(null, messages[x].title)}}}>New Tip</button> */}
-                <button onClick= {this.props.m.bind(null, this.shuffle().title)}>New Tip</button>
+               
             </div>
         );
     }
