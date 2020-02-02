@@ -64,7 +64,6 @@ class App extends React.Component {
         return (
             <div>
                 <div className="headers">
-                    <h1 className="white-text">ecoventure</h1>
                     <h2 className="white-text">How can you help?</h2>
                 </div>
                 <div className="bits">
